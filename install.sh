@@ -37,3 +37,7 @@ WantedBy=default.target
 # запуск и автозагрузка
 sudo systemctl start cloud-mail && sudo systemctl enable cloud-mail
 
+
+# подключиться:
+
+dav://127.0.0.1:8888/
