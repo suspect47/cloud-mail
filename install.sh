@@ -41,3 +41,11 @@ sudo systemctl start cloud-mail && sudo systemctl enable cloud-mail
 # подключиться:
 
 dav://127.0.0.1:8888/
+
+
+########################################################################
+
+nano /etc/davfs2/secrets
+#/home/igi/cloud-mail <login> <password>
+
+mount --rw -t davfs http://127.0.0.1:8888 /home/igi/cloud-mail
